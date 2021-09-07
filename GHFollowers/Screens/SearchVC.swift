@@ -28,7 +28,7 @@ class SearchVC: UIViewController {
 
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
-    navigationController?.isNavigationBarHidden = true
+    navigationController?.setNavigationBarHidden(true, animated: true)
   }
   
   // it hides keyboard when the user toches anywhere on the screen.
