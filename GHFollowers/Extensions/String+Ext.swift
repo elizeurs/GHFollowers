@@ -9,6 +9,8 @@ import Foundation
 
 extension String {
   
+  // it's not necessary anymore. we using "decoder.dateDecodingStrategy  = .iso8601" instead. you can delete the whole file.
+
   func convertToDate() -> Date? {
     let dateFormatter           = DateFormatter()
     dateFormatter.dateFormat    = "yyyy-MM-dd'T'HH:mm:ssZ"
